@@ -1,0 +1,155 @@
+/*Extra Small*/
+@media  (max-width: 576px){
+    /*------------------------------------- BOOK__NAV ------------------------------------*/
+    .header__nav {
+        height: auto;
+    }
+    .header__nav-link {
+        margin: 7px 0;
+    }
+    /*------------------------------------- BOOK__HEADER ------------------------------------*/
+    .book__header-title {
+        font-size: 23px;
+    }
+    .book__header-text {
+        font-size: 16px;
+    }
+    /*------------------------------------- BOOK__TABS ------------------------------------*/
+    .book__tabs-title {
+         font-size: 22px;
+     }
+    .book__tabs-text {
+        font-size: 14px;
+    }
+    .book__tabs__button {
+        font-size: 14px;
+    }
+    /*------------------------------------- BOOK__PHOTO-SHOOT ------------------------------------*/
+    .book__photo-shoot-title {
+        font-size: 22px;
+    }
+    .book__select , .book__input {
+        width: 100%;
+    }
+    /*------------------------------------- BOOK__PACKAGES ------------------------------------*/
+    .book__packages-title {
+        font-size: 22px;
+    }
+    /*------------------------------------- BOOK__CONTACT ------------------------------------*/
+    .book__contact-title {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    /*------------------------------------- BOOK__BUTTON ------------------------------------*/
+    .book__button-button:nth-child(1) , .book__button-button:nth-child(2)  {
+        height: 50px;
+        font-size: 18px;
+    }
+    .book__button-button:nth-child(1) {
+        width: 120px;
+    }
+    .book__button-button:nth-child(2) {
+        width: 180px;
+    }
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*------------------------------------- BOOK__NAV ------------------------------------*/
+    .header__nav {
+        height: auto;
+    }
+    .header__nav-link {
+        margin: 7px 0;
+    }
+    /*------------------------------------- BOOK__HEADER ------------------------------------*/
+    .book__header-title {
+        font-size: 23px;
+    }
+    .book__header-text {
+        font-size: 15px;
+    }
+    /*------------------------------------- BOOK__TABS ------------------------------------*/
+    .book__tabs-title {
+        font-size: 20px;
+    }
+    .book__tabs-text {
+        font-size: 14px;
+    }
+    .book__tabs__button {
+        font-size: 14px;
+    }
+    /*------------------------------------- BOOK__PHOTO-SHOOT ------------------------------------*/
+    .book__select , .book__input {
+        width: 100%;
+    }
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*------------------------------------- BOOK__NAV ------------------------------------*/
+    .header__nav {
+        height: auto;
+    }
+    .header__nav-link {
+        margin: 7px 0;
+    }
+    /*------------------------------------- BOOK__HEADER ------------------------------------*/
+    .book__header-title {
+        font-size: 31px;
+    }
+    .book__header-text {
+        font-size: 15px;
+    }
+    /*------------------------------------- BOOK__TABS ------------------------------------*/
+
+    /*------------------------------------- BOOK__PHOTO-SHOOT ------------------------------------*/
+    .book__select , .book__input {
+        width: 100%;
+    }
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    /*------------------------------------- BOOK__PHOTO-SHOOT ------------------------------------*/
+    .book__select , .book__input {
+        width: 100%;
+    }
+}
+/*Extra Large*/
+@media  (min-width: 1200px){
+
+}
+@media screen and (max-width: 320px) {
+    /*------------------------------------- BOOK__HEADER ------------------------------------*/
+    .book__header-title {
+        font-size: 20px;
+    }
+    .book__header-text {
+        font-size: 14px;
+    }
+    /*------------------------------------- BOOK__BUTTON ------------------------------------*/
+    .book__button-button:nth-child(1), .book__button-button:nth-child(2) {
+        height: 42px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 280px) {
+    /*------------------------------------- BOOK__NAV ------------------------------------*/
+    .header__nav-logo {
+        width: 120px;
+    }
+    /*------------------------------------- BOOK__HEADER ------------------------------------*/
+    .book__header-title {
+        font-size: 18px;
+    }
+    .book__header-text {
+        font-size: 11px;
+    }
+    /*------------------------------------- BOOK__TABS ------------------------------------*/
+    .book__tabs-title {
+        font-size: 18px;
+    }
+    /*------------------------------------- BOOK__BUTTON ------------------------------------*/
+    .book__button-button:nth-child(1), .book__button-button:nth-child(2) {
+        height: 35px;
+        font-size: 12px;
+    }
+}

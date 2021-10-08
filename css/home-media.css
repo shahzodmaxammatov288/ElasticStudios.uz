@@ -1,0 +1,585 @@
+/*Extra Small*/
+@media  (max-width: 576px){
+    /*------------------------------------- HEADER__NAV ------------------------------------*/
+    .header__nav {
+        height: auto;
+    }
+    .header__nav-link {
+        margin: 7px 0;
+    }
+    /*------------------------------------- HEADER ------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__text-h1 {
+        font-size: 28px;
+    }
+    .header__top__button-button {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .header__bottom {
+        margin-top: 100px;
+    }
+    /*------------------------------------- MAIN__PHOTOS------------------------------------*/
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        font-size: 28px;
+    }
+    .main__beauty-text,
+    .main__potrait-text,
+    .main__fashion-text,
+    .main__meetings-text,
+    .main__people-text,
+    .main__product-text,
+    .main__couple-text,
+    .main__nature-text,
+    .main__birthdays-text {
+        font-size: 12px;
+    }
+    .main__beauty,
+    .main__potrait,
+    .main__fashion,
+    .main__meetings,
+    .main__people,
+    .main__product,
+    .main__couple,
+    .main__nature,
+    .main__birthdays {
+        height: 550px;
+    }
+    .main__beauty-button,
+    .main__potrait-button,
+    .main__fashion-button,
+    .main__meetings-button,
+    .main__people-button,
+    .main__product-button,
+    .main__couple-button,
+    .main__nature-button,
+    .main__birthdays-button {
+        width: 140px;
+        height: 55px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .main__beauty__block,
+    .main__potrait__block,
+    .main__fashion__block,
+    .main__meetings__block,
+    .main__people__block,
+    .main__product__block,
+    .main__couple__block,
+    .main__nature__block,
+    .main__birthdays__block {
+        padding: 0;
+        margin: 100px 40px 0;
+    }
+    .main__beauty__block::before, .main__beauty__block::after,
+    .main__potrait__block::before, .main__potrait__block::after,
+    .main__fashion__block::before, .main__fashion__block::after,
+    .main__meetings__block::before, .main__meetings__block::after,
+    .main__people__block::before, .main__people__block::after,
+    .main__product__block::before, .main__product__block::after,
+    .main__couple__block::before, .main__couple__block::after,
+    .main__nature__block::before, .main__nature__block::after,
+    .main__birthdays__block::before, .main__birthdays__block::after {
+        width: 140px;
+    }
+    .main__beauty__block::before,
+    .main__fashion__block::before,
+    .main__people__block::before,
+    .main__couple__block::before,
+    .main__birthdays__block::before {
+        left: 0;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        line-height: 0;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .main__potrait__block::before,
+    .main__meetings__block::before,
+    .main__product__block::before,
+    .main__nature__block::before {
+        right: 0;
+    }
+
+    /*------------------------------- FOOTER ---------------------------------*/
+    .footer__text__block {
+        margin: 30px 0;
+    }
+    .footer-link {
+        font-size: 16px;
+    }
+    .footer__text-number {
+        font-size: 55px;
+    }
+    .footer__text-p {
+        font-size: 18px;
+    }
+    .footer__button {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*------------------------------------- HEADER__NAV ------------------------------------*/
+    .header__nav {
+        height: auto;
+    }
+    .header__nav-link {
+        margin: 7px 0;
+    }
+    /*------------------------------------- HEADER ------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__text-h1 {
+        font-size: 28px;
+    }
+    .header__top__button-button {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .header__bottom {
+        margin-top: 100px;
+    } /*------------------------------------- MAIN__PHOTOS------------------------------------*/
+    .main__beauty,
+    .main__potrait,
+    .main__fashion,
+    .main__meetings,
+    .main__people,
+    .main__product,
+    .main__couple,
+    .main__nature,
+    .main__birthdays {
+        height: 720px;
+        padding: 31px 26px;
+        position: relative;
+        z-index: 1;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        font-size: 50px;
+    }
+    .main__beauty-text,
+    .main__potrait-text,
+    .main__fashion-text,
+    .main__meetings-text,
+    .main__people-text,
+    .main__product-text,
+    .main__couple-text,
+    .main__nature-text,
+    .main__birthdays-text {
+        font-size: 24px;
+    }
+    .main__beauty-button,
+    .main__potrait-button,
+    .main__fashion-button,
+    .main__meetings-button,
+    .main__people-button,
+    .main__product-button,
+    .main__couple-button,
+    .main__nature-button,
+    .main__birthdays-button {
+        width: 140px;
+        height: 55px;
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .main__beauty__block,
+    .main__potrait__block,
+    .main__fashion__block,
+    .main__meetings__block,
+    .main__people__block,
+    .main__product__block,
+    .main__couple__block,
+    .main__nature__block,
+    .main__birthdays__block {
+        padding: 0;
+        margin: 250px 40px 0;
+    }
+    .main__beauty__block::before, .main__beauty__block::after,
+    .main__potrait__block::before, .main__potrait__block::after,
+    .main__fashion__block::before, .main__fashion__block::after,
+    .main__meetings__block::before, .main__meetings__block::after,
+    .main__people__block::before, .main__people__block::after,
+    .main__product__block::before, .main__product__block::after,
+    .main__couple__block::before, .main__couple__block::after,
+    .main__nature__block::before, .main__nature__block::after,
+    .main__birthdays__block::before, .main__birthdays__block::after {
+        width: 140px;
+    }
+    .main__beauty__block::before,
+    .main__fashion__block::before,
+    .main__people__block::before,
+    .main__couple__block::before,
+    .main__birthdays__block::before {
+        left: 0;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        line-height: 20px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .main__potrait__block::before,
+    .main__meetings__block::before,
+    .main__product__block::before,
+    .main__nature__block::before {
+        right: 0;
+    }
+    /*------------------------------- FOOTER ---------------------------------*/
+    .footer__text__block {
+        margin: 20px 0;
+    }
+    .footer-link {
+        font-size: 16px;
+    }
+    .footer__text-number {
+        font-size: 55px;
+    }
+    .footer__text-p {
+        font-size: 21px;
+    }
+    .footer__button {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*------------------------------------- HEADER__NAV ------------------------------------*/
+    .header__nav {
+        height: auto;
+    }
+    .header__nav-link {
+        margin: 7px 0;
+    }
+    /*------------------------------------- HEADER ------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__text-h1 {
+        font-size: 28px;
+    }
+    .header__top__button-button {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .header__bottom {
+        margin-top: 100px;
+    }
+    /*------------------------------------- MAIN__PHOTOS------------------------------------*/
+    .main__beauty,
+    .main__potrait,
+    .main__fashion,
+    .main__meetings,
+    .main__people,
+    .main__product,
+    .main__couple,
+    .main__nature,
+    .main__birthdays {
+        height: 720px;
+        padding: 31px 26px;
+        position: relative;
+        z-index: 1;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+         font-size: 50px;
+    }
+    .main__beauty-text,
+    .main__potrait-text,
+    .main__fashion-text,
+    .main__meetings-text,
+    .main__people-text,
+    .main__product-text,
+    .main__couple-text,
+    .main__nature-text,
+    .main__birthdays-text {
+        font-size: 24px;
+    }
+    .main__beauty-button,
+    .main__potrait-button,
+    .main__fashion-button,
+    .main__meetings-button,
+    .main__people-button,
+    .main__product-button,
+    .main__couple-button,
+    .main__nature-button,
+    .main__birthdays-button {
+        width: 140px;
+        height: 55px;
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .main__beauty__block,
+    .main__potrait__block,
+    .main__fashion__block,
+    .main__meetings__block,
+    .main__people__block,
+    .main__product__block,
+    .main__couple__block,
+    .main__nature__block,
+    .main__birthdays__block {
+        padding: 0;
+        margin: 250px 40px 0;
+    }
+    .main__beauty__block::before, .main__beauty__block::after,
+    .main__potrait__block::before, .main__potrait__block::after,
+    .main__fashion__block::before, .main__fashion__block::after,
+    .main__meetings__block::before, .main__meetings__block::after,
+    .main__people__block::before, .main__people__block::after,
+    .main__product__block::before, .main__product__block::after,
+    .main__couple__block::before, .main__couple__block::after,
+    .main__nature__block::before, .main__nature__block::after,
+    .main__birthdays__block::before, .main__birthdays__block::after {
+        width: 140px;
+    }
+    .main__beauty__block::before,
+    .main__fashion__block::before,
+    .main__people__block::before,
+    .main__couple__block::before,
+    .main__birthdays__block::before {
+        left: 0;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        line-height: 0;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .main__potrait__block::before,
+    .main__meetings__block::before,
+    .main__product__block::before,
+    .main__nature__block::before {
+        right: 0;
+    }
+    /*------------------------------- FOOTER ---------------------------------*/
+    .footer__text__block {
+        margin: 30px 0;
+    }
+    .footer-link {
+        font-size: 16px;
+    }
+    .footer__text-number {
+        font-size: 55px;
+    }
+    .footer__text-p {
+        font-size: 18px;
+    }
+    .footer__button {
+        width: 180px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .footer__text__block {
+        height: 194px;
+    }
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    /*------------------------------------- HEADER ------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__text-h1 {
+        font-size: 32px;
+    }
+    .header__top__button-button {
+        width: 180px;
+        height: 60px;
+        font-size: 24px;
+    }
+    .header__bottom {
+        margin-top: 180px;
+    }
+    /*------------------------------------- MAIN__PHOTOS------------------------------------*/
+    .main__beauty,
+    .main__potrait,
+    .main__fashion,
+    .main__meetings,
+    .main__people,
+    .main__product,
+    .main__couple,
+    .main__nature,
+    .main__birthdays {
+        height: 720px;
+        padding: 31px 26px;
+        position: relative;
+        z-index: 1;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        font-size: 50px;
+    }
+    .main__beauty-text,
+    .main__potrait-text,
+    .main__fashion-text,
+    .main__meetings-text,
+    .main__people-text,
+    .main__product-text,
+    .main__couple-text,
+    .main__nature-text,
+    .main__birthdays-text {
+        font-size: 24px;
+    }
+    .main__beauty-button,
+    .main__potrait-button,
+    .main__fashion-button,
+    .main__meetings-button,
+    .main__people-button,
+    .main__product-button,
+    .main__couple-button,
+    .main__nature-button,
+    .main__birthdays-button {
+        width: 140px;
+        height: 55px;
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .main__beauty__block,
+    .main__potrait__block,
+    .main__fashion__block,
+    .main__meetings__block,
+    .main__people__block,
+    .main__product__block,
+    .main__couple__block,
+    .main__nature__block,
+    .main__birthdays__block {
+        padding: 0;
+        margin: 250px 40px 0;
+    }
+    .main__beauty__block::before, .main__beauty__block::after,
+    .main__potrait__block::before, .main__potrait__block::after,
+    .main__fashion__block::before, .main__fashion__block::after,
+    .main__meetings__block::before, .main__meetings__block::after,
+    .main__people__block::before, .main__people__block::after,
+    .main__product__block::before, .main__product__block::after,
+    .main__couple__block::before, .main__couple__block::after,
+    .main__nature__block::before, .main__nature__block::after,
+    .main__birthdays__block::before, .main__birthdays__block::after {
+        width: 140px;
+    }
+    .main__beauty__block::before,
+    .main__fashion__block::before,
+    .main__people__block::before,
+    .main__couple__block::before,
+    .main__birthdays__block::before {
+        left: 0;
+    }
+    .main__beauty-title,
+    .main__potrait-title,
+    .main__fashion-title,
+    .main__meetings-title,
+    .main__people-title,
+    .main__product-title,
+    .main__couple-title,
+    .main__nature-title,
+    .main__birthdays-title {
+        line-height: 20px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .main__potrait__block::before,
+    .main__meetings__block::before,
+    .main__product__block::before,
+    .main__nature__block::before {
+        right: 0;
+    }
+}
+/*Extra Large*/
+@media  (min-width: 1200px){
+
+}
+@media screen and (max-width: 320px) {
+    /*------------------------------------- MAIN__PHOTOS------------------------------------*/
+    .main__beauty__block,
+    .main__potrait__block,
+    .main__fashion__block,
+    .main__meetings__block,
+    .main__people__block,
+    .main__product__block,
+    .main__couple__block,
+    .main__nature__block,
+    .main__birthdays__block {
+        padding: 0;
+        margin: 150px 40px 0;
+    }
+}
+@media screen and (max-width: 280px) {
+    /*------------------------------------- HEADER__NAV ------------------------------------*/
+    .header__nav-logo {
+        width: 120px;
+    }
+    /*------------------------------------- HEADER ------------------------------------*/
+    .header__text-h1 {
+        font-size: 22px;
+    }
+    .header__top__button-button {
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .header-link {
+        font-size: 20px;
+    }
+}

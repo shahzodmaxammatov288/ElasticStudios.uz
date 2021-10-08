@@ -1,0 +1,176 @@
+    /*Extra Small*/
+    
+    @media (max-width: 576px) {
+        /*------------------------------------- HEADER__NAV ------------------------------------*/
+        .header__nav {
+            height: auto;
+        }
+        .header__nav-link {
+            margin: 7px 0;
+        }
+        /* -----------------------------------------MAIN_CONTACT--------------------------------- */
+        .main__contact {
+            padding: 120px 0 60px;
+        }
+        .main__contact-title {
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .main__contact-label {
+            font-size: 18px;
+        }
+        .main__contact-input,
+        .main__contact-textarea {
+            width: 100%;
+        }
+        .main__contact-textarea {
+            height: 180px;
+        }
+        .main__contact-text {
+            font-size: 15px;
+        }
+        .main__contact-button {
+            width: 120px;
+            height: 60px;
+            font-size: 20px;
+        }
+        .main__contact__info {
+            margin-top: 40px;
+        }
+    }
+    /*Small*/
+    
+    @media screen and (max-width: 767px) and (min-width: 576px) {
+        /*------------------------------------- HEADER__NAV ------------------------------------*/
+        .header__nav {
+            height: auto;
+        }
+        .header__nav-link {
+            margin: 7px 0;
+        }
+        /* -----------------------------------------MAIN_CONTACT--------------------------------- */
+        .main__contact {
+            padding: 120px 0 60px;
+        }
+        .main__contact-title {
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .main__contact-label {
+            font-size: 18px;
+        }
+        .main__contact-input,
+        .main__contact-textarea {
+            width: 100%;
+        }
+        .main__contact-textarea {
+            height: 180px;
+        }
+        .main__contact-text {
+            font-size: 15px;
+        }
+        .main__contact-button {
+            width: 120px;
+            height: 60px;
+            font-size: 20px;
+        }
+        .main__contact__info {
+            margin-top: 40px;
+        }
+    }
+    /*Medium*/
+    
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+        /*------------------------------------- HEADER__NAV ------------------------------------*/
+        .header__nav {
+            height: auto;
+        }
+        .header__nav-link {
+            margin: 7px 0;
+        }
+        /* -----------------------------------------MAIN_CONTACT--------------------------------- */
+        .main__contact {
+            padding: 120px 0 60px;
+        }
+        .main__contact-title {
+            font-size: 60px;
+            margin-bottom: 30px;
+        }
+        .main__contact-img {
+            height: 845px;
+        }
+        .main__contact-label {
+            font-size: 18px;
+        }
+        .main__contact-input,
+        .main__contact-textarea {
+            width: 100%;
+        }
+        .main__contact-textarea {
+            height: 180px;
+        }
+        .main__contact-text {
+            font-size: 15px;
+        }
+        .main__contact-button {
+            width: 120px;
+            height: 60px;
+            font-size: 20px;
+        }
+        .main__contact__info {
+            margin-top: 40px;
+        }
+    }
+    /*Large*/
+    
+    @media screen and (max-width: 1199px) and (min-width: 992px) {
+        /* -----------------------------------------MAIN_CONTACT--------------------------------- */
+        .main__contact {
+            padding: 180px 0 60px;
+        }
+        .main__contact-title {
+            font-size: 70px;
+            margin-bottom: 30px;
+        }
+        .main__contact-img {
+            height: 845px;
+        }
+        .main__contact-label {
+            font-size: 18px;
+        }
+        .main__contact-input,
+        .main__contact-textarea {
+            width: 100%;
+        }
+        .main__contact-textarea {
+            height: 180px;
+        }
+        .main__contact-text {
+            font-size: 15px;
+        }
+        .main__contact-button {
+            width: 120px;
+            height: 60px;
+            font-size: 20px;
+        }
+        .main__contact__info {
+            margin-top: 40px;
+        }
+    }
+    /*Extra Large*/
+    
+    @media (min-width: 1200px) {}
+    
+    @media screen and (max-width: 320px) {}
+    
+    @media screen and (max-width: 280px) {
+        /*------------------------------------- HEADER__NAV ------------------------------------*/
+        .header__nav-logo {
+            width: 120px;
+        }
+        .main__contact__info-nav-link {
+            font-size: 14px;
+        }
+    }
